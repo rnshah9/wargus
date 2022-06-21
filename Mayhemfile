@@ -1,5 +1,5 @@
-project: rnshah9/wargus
-target: wargus
+project: wargus
+target: pudconvert
 
 cmds:
   - cmd: /repo/pudconvert @@
