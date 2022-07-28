@@ -2,4 +2,4 @@ project: wargus
 target: pudconvert
 
 cmds:
-  - cmd: /repo/pudconvert @@
+  - cmd: /pudconvert @@
