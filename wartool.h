@@ -35,9 +35,9 @@
 --  General
 ----------------------------------------------------------------------------*/
 
-#define VERSION "3.2.1" // Version of extractor wartool
+#define VERSION "3.3.1" // Version of extractor wartool
 
-const char NameLine[] = "wartool V" VERSION " for Stratagus, (c) 1998-2021 by The Stratagus Project.\n"\
+const char NameLine[] = "wartool V" VERSION " for Stratagus, (c) 1998-2022 by The Stratagus Project.\n"\
 "  Written by Lutz Sammer, Nehal Mistry, Jimmy Salmon, Pali Rohar and cybermind.\n"\
 "  https://wargus.github.io";
 
@@ -1612,32 +1612,32 @@ static Control Todo[] = {
 {Q,8,TEXT_PATH "/human-exp/levelx10h.txt",               1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xhum10.tbl"},
 {Q,8,TEXT_PATH "/human-exp/levelx11h.txt",               1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xhum11.tbl"},
 {Q,8,TEXT_PATH "/human-exp/levelx12h.txt",               1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xhum12.tbl"},
-{Q,8,TEXT_PATH "/orc/level01h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc1.tbl"},
-{Q,8,TEXT_PATH "/orc/level02h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc2.tbl"},
-{Q,8,TEXT_PATH "/orc/level03h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc3.tbl"},
-{Q,8,TEXT_PATH "/orc/level04h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc4.tbl"},
-{Q,8,TEXT_PATH "/orc/level05h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc5.tbl"},
-{Q,8,TEXT_PATH "/orc/level06h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc6.tbl"},
-{Q,8,TEXT_PATH "/orc/level07h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc7.tbl"},
-{Q,8,TEXT_PATH "/orc/level08h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc8.tbl"},
-{Q,8,TEXT_PATH "/orc/level09h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc9.tbl"},
-{Q,8,TEXT_PATH "/orc/level10h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc10.tbl"},
-{Q,8,TEXT_PATH "/orc/level11h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc11.tbl"},
-{Q,8,TEXT_PATH "/orc/level12h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc12.tbl"},
-{Q,8,TEXT_PATH "/orc/level13h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc13.tbl"},
-{Q,8,TEXT_PATH "/orc/level14h.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc14.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx01h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc1.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx02h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc2.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx03h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc3.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx04h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc4.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx05h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc5.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx06h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc6.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx07h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc7.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx08h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc8.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx09h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc9.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx10h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc10.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx11h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc11.tbl"},
-{Q,8,TEXT_PATH "/orc-exp/levelx12h.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc12.tbl"},
+{Q,8,TEXT_PATH "/orc/level01o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc1.tbl"},
+{Q,8,TEXT_PATH "/orc/level02o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc2.tbl"},
+{Q,8,TEXT_PATH "/orc/level03o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc3.tbl"},
+{Q,8,TEXT_PATH "/orc/level04o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc4.tbl"},
+{Q,8,TEXT_PATH "/orc/level05o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc5.tbl"},
+{Q,8,TEXT_PATH "/orc/level06o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc6.tbl"},
+{Q,8,TEXT_PATH "/orc/level07o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc7.tbl"},
+{Q,8,TEXT_PATH "/orc/level08o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc8.tbl"},
+{Q,8,TEXT_PATH "/orc/level09o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc9.tbl"},
+{Q,8,TEXT_PATH "/orc/level10o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc10.tbl"},
+{Q,8,TEXT_PATH "/orc/level11o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc11.tbl"},
+{Q,8,TEXT_PATH "/orc/level12o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc12.tbl"},
+{Q,8,TEXT_PATH "/orc/level13o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc13.tbl"},
+{Q,8,TEXT_PATH "/orc/level14o.txt",                      1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\orc14.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx01o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc1.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx02o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc2.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx03o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc3.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx04o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc4.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx05o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc5.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx06o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc6.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx07o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc7.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx08o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc8.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx09o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc9.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx10o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc10.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx11o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc11.tbl"},
+{Q,8,TEXT_PATH "/orc-exp/levelx12o.txt",                 1, 'X', 0x04, 0, "War2Dat.mpq", "rez\\2xorc12.tbl"},
 
 /////// SOUNDS ////////////////////////////////////////////////////////////////
 
