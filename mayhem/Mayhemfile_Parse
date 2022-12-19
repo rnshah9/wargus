@@ -1,0 +1,6 @@
+project: wargus
+target: parse
+
+cmds:
+  - cmd: /fuzz_Parse
+    max_length: 105
